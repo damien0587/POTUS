@@ -27,7 +27,7 @@ app.use(cookieParser()); // read cookies (needed for auth)
 app.use(bodyParser()); // get information from html forms
 
 app.set('view engine', 'ejs'); // set up ejs for templating
-app.use(express.static(__dirname + '/startbootstrap-agency-gh-pages'));
+app.use(express.static(__dirname + '/fullpotspotz-gh-pages'));
 
 // required for passport
 app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
