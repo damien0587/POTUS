@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang ="en-us">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>PotSpots</title>
+
+	<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poiret+One|Rock+Salt" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+
+ 	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4" id="sidePanel">
+				<!-- <div id="sideTab" class="container-fluid">
+					<ul  class="nav nav-pills">
+
+						<li>
+							<a href="#search" data-toggle="tab" id="allTab">Near You</a>
+						</li>
+					</ul>
+
+					<div class="tab-content clearfix">
+
+
+						<div class="tab-pane" id="search">
+				         	<div id="nearYou"> -->
+								<form>
+						            <div class="form-group">
+						              	<label for="zip">Enter your location to find dispensaries near you</label>
+						              	<input type="text" class="form-control" id="zip">
+						            </div>
+						            <button type="submit" class="btn" id="submit">Submit</button>
+						          </form>
+						          <ol id="searchList">
+								</ol>
+							<!-- </div>
+						</div>
+					</div>
+				</div> -->
+			</div>
+			<div class="col-md-8">
+	    		<div id="map"></div>
+	    	</div>
+				<div class="col-md-12">
+					<div class="panel" id="infoMain">
+						<div class="panel-heading" id="infoTitle"></div>
+						<div class="panel-body" id="infoBody">
+							<div class="info" id="brewRate"></div>
+							<div class="info" id="brewAddr"></div>
+							<div class="info" id="brewHours"></div>
+							<div class="info" id="brewPhone"></div>
+							<div class="info" id="brewSite"></div>
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+
+
+
+	</div>
+<!-- <button type="button" class="btn btn-warning" href ="../index.html">Home Page</button> -->
+<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="../index.html">Home</a>
+<!--
+<iframe src="https://open.spotify.com/embed?uri=spotify:track:5JunxkcjfCYcY7xJ29tLai"
+        frameborder="0" allowtransparency="true"></iframe> -->
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzWG24urca-Ze4g4x4MlKCQBqF_kaHrQ0&libraries=places&callback=initMap"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
